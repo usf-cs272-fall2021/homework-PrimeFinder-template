@@ -70,11 +70,18 @@ public class PrimeFinder {
 			throw new IllegalArgumentException("Parameters must be 1 or greater.");
 		}
 
-		// TODO Fix this implementation (see trialDivision for starting point).
+		/*
+		 * TODO Multithread this implementation using a work queue with one task per
+		 * number being tested. The work completed should be calling isPrime on a single
+		 * number and SAFELY adding that number to a set if it is prime.
+		 */
 		throw new UnsupportedOperationException("Not yet implemented.");
 	}
 
-	// TODO Add additional classes or methods as needed.
+	/*
+	 * TODO Add additional classes or methods as needed. Make sure to create work
+	 * (or tasks) instead of workers here!
+	 */
 
 	/**
 	 * Demonstrates this class.
